@@ -1,0 +1,694 @@
+{
+  "schema": 1,
+  "scenes": [
+    {
+      "id": "RT",
+      "name": "Rainy Tokyo",
+      "folder": "Rainy_Tokyo",
+      "background": "assets/Video/Rainy_Tokyo/background.png",
+      "cover": "assets/Video/Rainy_Tokyo/cover.webp",
+      "video": {
+        "ambient": [
+          "assets/Video/Rainy_Tokyo/ambient.mp4"
+        ],
+        "events": [
+          "assets/Video/Rainy_Tokyo/event.mp4"
+        ]
+      },
+      "revision": "1",
+      "delivery": "install",
+      "access": {
+        "kind": "public"
+      },
+      "audio": {
+        "music": [
+          "assets/Music/Rainy Tokyo/RT001.m4a",
+          "assets/Music/Rainy Tokyo/RT003.m4a",
+          "assets/Music/Rainy Tokyo/RT004.m4a",
+          "assets/Music/Rainy Tokyo/RT005.m4a",
+          "assets/Music/Rainy Tokyo/RT007.m4a",
+          "assets/Music/Rainy Tokyo/RT008.m4a",
+          "assets/Music/Rainy Tokyo/RT013.m4a",
+          "assets/Music/Rainy Tokyo/RT014.m4a",
+          "assets/Music/Rainy Tokyo/RT015.m4a",
+          "assets/Music/Rainy Tokyo/RT016.m4a",
+          "assets/Music/Rainy Tokyo/RT019.m4a",
+          "assets/Music/Rainy Tokyo/RT020.m4a",
+          "assets/Music/Rainy Tokyo/RT022.m4a",
+          "assets/Music/Rainy Tokyo/RT027.m4a",
+          "assets/Music/Rainy Tokyo/RT029.m4a",
+          "assets/Music/Rainy Tokyo/RT032.m4a",
+          "assets/Music/Rainy Tokyo/RT033.m4a",
+          "assets/Music/Rainy Tokyo/RT036.m4a",
+          "assets/Music/Rainy Tokyo/RT039.m4a",
+          "assets/Music/Rainy Tokyo/RT040.m4a"
+        ],
+        "ambience": [
+          "assets/ambience/Rainy Tokyo/RT-A1-C01.m4a",
+          "assets/ambience/Rainy Tokyo/RT-A1-C02.m4a",
+          "assets/ambience/Rainy Tokyo/RT-A1-C03.m4a",
+          "assets/ambience/Rainy Tokyo/RT-A2-C01.m4a",
+          "assets/ambience/Rainy Tokyo/RT-A2-C02.m4a",
+          "assets/ambience/Rainy Tokyo/RT-A2-C03.m4a",
+          "assets/ambience/Rainy Tokyo/RT-A3-C01.m4a",
+          "assets/ambience/Rainy Tokyo/RT-A3-C02.m4a",
+          "assets/ambience/Rainy Tokyo/RT-A3-C03.m4a"
+        ],
+        "sfx": [
+          "assets/sfx/Rainy Tokyo/RT-S1-C01.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S1-C02.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S1-C03.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S1-C04.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S2-C01.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S2-C02.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S2-C03.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S2-C04.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S3-C01.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S3-C02.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S3-C03.m4a",
+          "assets/sfx/Rainy Tokyo/RT-S3-C04.m4a"
+        ]
+      },
+      "android": {
+        "minVersionCode": 1,
+        "pack": "scene_rt"
+      },
+      "desktop": {
+        "minAppVersion": "1.0.13"
+      }
+    },
+    {
+      "id": "MC",
+      "name": "Midnight Cafe",
+      "folder": "Midnight_Cafe",
+      "background": "assets/Video/Midnight_Cafe/background.png",
+      "cover": "assets/Video/Midnight_Cafe/cover.webp",
+      "video": {
+        "ambient": [
+          "assets/Video/Midnight_Cafe/ambient.mp4"
+        ],
+        "events": [
+          "assets/Video/Midnight_Cafe/event.mp4"
+        ]
+      },
+      "revision": "1",
+      "delivery": "on-demand",
+      "access": {
+        "kind": "public"
+      },
+      "audio": {
+        "music": [
+          "assets/Music/Midnight Cafe/MC002.m4a",
+          "assets/Music/Midnight Cafe/MC003.m4a",
+          "assets/Music/Midnight Cafe/MC004.m4a",
+          "assets/Music/Midnight Cafe/MC007.m4a",
+          "assets/Music/Midnight Cafe/MC008.m4a",
+          "assets/Music/Midnight Cafe/MC009.m4a",
+          "assets/Music/Midnight Cafe/MC010.m4a",
+          "assets/Music/Midnight Cafe/MC012.m4a",
+          "assets/Music/Midnight Cafe/MC013.m4a",
+          "assets/Music/Midnight Cafe/MC014.m4a",
+          "assets/Music/Midnight Cafe/MC015.m4a",
+          "assets/Music/Midnight Cafe/MC020.m4a",
+          "assets/Music/Midnight Cafe/MC023.m4a",
+          "assets/Music/Midnight Cafe/MC026.m4a",
+          "assets/Music/Midnight Cafe/MC028.m4a",
+          "assets/Music/Midnight Cafe/MC029.m4a",
+          "assets/Music/Midnight Cafe/MC032.m4a",
+          "assets/Music/Midnight Cafe/MC033.m4a",
+          "assets/Music/Midnight Cafe/MC037.m4a",
+          "assets/Music/Midnight Cafe/MC040.m4a"
+        ],
+        "ambience": [
+          "assets/ambience/Midnight Cafe/MC-A1-C01.m4a",
+          "assets/ambience/Midnight Cafe/MC-A1-C02.m4a",
+          "assets/ambience/Midnight Cafe/MC-A1-C03.m4a",
+          "assets/ambience/Midnight Cafe/MC-A2-C01.m4a",
+          "assets/ambience/Midnight Cafe/MC-A2-C02.m4a",
+          "assets/ambience/Midnight Cafe/MC-A2-C03.m4a"
+        ],
+        "sfx": [
+          "assets/sfx/Midnight Cafe/MC-S1-C01.m4a",
+          "assets/sfx/Midnight Cafe/MC-S1-C02.m4a",
+          "assets/sfx/Midnight Cafe/MC-S1-C03.m4a",
+          "assets/sfx/Midnight Cafe/MC-S1-C04.m4a",
+          "assets/sfx/Midnight Cafe/MC-S2-C01.m4a",
+          "assets/sfx/Midnight Cafe/MC-S2-C02.m4a",
+          "assets/sfx/Midnight Cafe/MC-S2-C03.m4a",
+          "assets/sfx/Midnight Cafe/MC-S2-C04.m4a",
+          "assets/sfx/Midnight Cafe/MC-S3-C01.m4a",
+          "assets/sfx/Midnight Cafe/MC-S3-C02.m4a",
+          "assets/sfx/Midnight Cafe/MC-S3-C03.m4a",
+          "assets/sfx/Midnight Cafe/MC-S3-C04.m4a",
+          "assets/sfx/Midnight Cafe/MC-S4-C01.m4a",
+          "assets/sfx/Midnight Cafe/MC-S4-C02.m4a",
+          "assets/sfx/Midnight Cafe/MC-S4-C03.m4a",
+          "assets/sfx/Midnight Cafe/MC-S4-C04.m4a"
+        ]
+      },
+      "android": {
+        "minVersionCode": 1,
+        "pack": "scene_mc"
+      },
+      "desktop": {
+        "minAppVersion": "1.0.13"
+      }
+    },
+    {
+      "id": "FC",
+      "name": "Forest Cabin",
+      "folder": "Forest_Cabin",
+      "background": "assets/Video/Forest_Cabin/background.png",
+      "cover": "assets/Video/Forest_Cabin/cover.webp",
+      "video": {
+        "ambient": [
+          "assets/Video/Forest_Cabin/ambient.mp4"
+        ]
+      },
+      "revision": "1",
+      "delivery": "on-demand",
+      "access": {
+        "kind": "public"
+      },
+      "audio": {
+        "music": [
+          "assets/Music/Forest Cabin/FC002.m4a",
+          "assets/Music/Forest Cabin/FC003.m4a",
+          "assets/Music/Forest Cabin/FC004.m4a",
+          "assets/Music/Forest Cabin/FC007.m4a",
+          "assets/Music/Forest Cabin/FC011.m4a",
+          "assets/Music/Forest Cabin/FC013.m4a",
+          "assets/Music/Forest Cabin/FC015.m4a",
+          "assets/Music/Forest Cabin/FC016.m4a",
+          "assets/Music/Forest Cabin/FC017.m4a",
+          "assets/Music/Forest Cabin/FC018.m4a",
+          "assets/Music/Forest Cabin/FC022.m4a",
+          "assets/Music/Forest Cabin/FC027.m4a",
+          "assets/Music/Forest Cabin/FC030.m4a",
+          "assets/Music/Forest Cabin/FC031.m4a",
+          "assets/Music/Forest Cabin/FC032.m4a",
+          "assets/Music/Forest Cabin/FC034.m4a",
+          "assets/Music/Forest Cabin/FC035.m4a",
+          "assets/Music/Forest Cabin/FC036.m4a",
+          "assets/Music/Forest Cabin/FC037.m4a",
+          "assets/Music/Forest Cabin/FC040.m4a"
+        ],
+        "ambience": [
+          "assets/ambience/Forest Cabin/FC-A1-C01.m4a",
+          "assets/ambience/Forest Cabin/FC-A1-C02.m4a",
+          "assets/ambience/Forest Cabin/FC-A1-C03.m4a",
+          "assets/ambience/Forest Cabin/FC-A2-C01.m4a",
+          "assets/ambience/Forest Cabin/FC-A2-C02.m4a",
+          "assets/ambience/Forest Cabin/FC-A2-C03.m4a",
+          "assets/ambience/Forest Cabin/FC-A3-C01.m4a",
+          "assets/ambience/Forest Cabin/FC-A3-C02.m4a",
+          "assets/ambience/Forest Cabin/FC-A3-C03.m4a"
+        ],
+        "sfx": [
+          "assets/sfx/Forest Cabin/FC-S1-C01.m4a",
+          "assets/sfx/Forest Cabin/FC-S1-C02.m4a",
+          "assets/sfx/Forest Cabin/FC-S1-C03.m4a",
+          "assets/sfx/Forest Cabin/FC-S1-C04.m4a",
+          "assets/sfx/Forest Cabin/FC-S2-C01.m4a",
+          "assets/sfx/Forest Cabin/FC-S2-C02.m4a",
+          "assets/sfx/Forest Cabin/FC-S2-C03.m4a",
+          "assets/sfx/Forest Cabin/FC-S2-C04.m4a",
+          "assets/sfx/Forest Cabin/FC-S3-C01.m4a",
+          "assets/sfx/Forest Cabin/FC-S3-C02.m4a",
+          "assets/sfx/Forest Cabin/FC-S3-C03.m4a",
+          "assets/sfx/Forest Cabin/FC-S3-C04.m4a"
+        ]
+      },
+      "android": {
+        "minVersionCode": 1,
+        "pack": "scene_fc"
+      },
+      "desktop": {
+        "minAppVersion": "1.0.13"
+      }
+    },
+    {
+      "id": "OL",
+      "name": "Old Library",
+      "folder": "Old_Library",
+      "background": "assets/Video/Old_Library/background.png",
+      "cover": "assets/Video/Old_Library/cover.webp",
+      "video": {
+        "ambient": [
+          "assets/Video/Old_Library/ambient.mp4"
+        ],
+        "events": [
+          "assets/Video/Old_Library/event.mp4"
+        ]
+      },
+      "revision": "1",
+      "delivery": "on-demand",
+      "access": {
+        "kind": "public"
+      },
+      "audio": {
+        "music": [
+          "assets/Music/Old Library/OL003.m4a",
+          "assets/Music/Old Library/OL005.m4a",
+          "assets/Music/Old Library/OL008.m4a",
+          "assets/Music/Old Library/OL010.m4a",
+          "assets/Music/Old Library/OL012.m4a",
+          "assets/Music/Old Library/OL014.m4a",
+          "assets/Music/Old Library/OL015.m4a",
+          "assets/Music/Old Library/OL016.m4a",
+          "assets/Music/Old Library/OL017.m4a",
+          "assets/Music/Old Library/OL019.m4a",
+          "assets/Music/Old Library/OL020.m4a",
+          "assets/Music/Old Library/OL021.m4a",
+          "assets/Music/Old Library/OL022.m4a",
+          "assets/Music/Old Library/OL023.m4a",
+          "assets/Music/Old Library/OL024.m4a",
+          "assets/Music/Old Library/OL026.m4a",
+          "assets/Music/Old Library/OL028.m4a",
+          "assets/Music/Old Library/OL030.m4a",
+          "assets/Music/Old Library/OL032.m4a",
+          "assets/Music/Old Library/OL034.m4a"
+        ],
+        "ambience": [
+          "assets/ambience/Old Library/OL-A1-C01.m4a",
+          "assets/ambience/Old Library/OL-A1-C02.m4a",
+          "assets/ambience/Old Library/OL-A1-C03.m4a",
+          "assets/ambience/Old Library/OL-A2-C01.m4a",
+          "assets/ambience/Old Library/OL-A2-C02.m4a",
+          "assets/ambience/Old Library/OL-A2-C03.m4a"
+        ],
+        "sfx": [
+          "assets/sfx/Old Library/OL-S1-C01.m4a",
+          "assets/sfx/Old Library/OL-S1-C02.m4a",
+          "assets/sfx/Old Library/OL-S1-C03.m4a",
+          "assets/sfx/Old Library/OL-S1-C04.m4a",
+          "assets/sfx/Old Library/OL-S2-C01.m4a",
+          "assets/sfx/Old Library/OL-S2-C02.m4a",
+          "assets/sfx/Old Library/OL-S2-C03.m4a",
+          "assets/sfx/Old Library/OL-S2-C04.m4a",
+          "assets/sfx/Old Library/OL-S3-C01.m4a",
+          "assets/sfx/Old Library/OL-S3-C02.m4a",
+          "assets/sfx/Old Library/OL-S3-C03.m4a",
+          "assets/sfx/Old Library/OL-S3-C04.m4a",
+          "assets/sfx/Old Library/OL-S4-C01.m4a",
+          "assets/sfx/Old Library/OL-S4-C02.m4a",
+          "assets/sfx/Old Library/OL-S4-C03.m4a",
+          "assets/sfx/Old Library/OL-S4-C04.m4a"
+        ]
+      },
+      "android": {
+        "minVersionCode": 1,
+        "pack": "scene_ol"
+      },
+      "desktop": {
+        "minAppVersion": "1.0.13"
+      }
+    },
+    {
+      "id": "OS",
+      "name": "Ocean Sunset",
+      "folder": "Ocean_Sunset",
+      "background": "assets/Video/Ocean_Sunset/background.png",
+      "cover": "assets/Video/Ocean_Sunset/cover.webp",
+      "video": {
+        "ambient": [
+          "assets/Video/Ocean_Sunset/ambient.mp4"
+        ],
+        "events": [
+          "assets/Video/Ocean_Sunset/event.mp4"
+        ]
+      },
+      "revision": "1",
+      "delivery": "on-demand",
+      "access": {
+        "kind": "public"
+      },
+      "audio": {
+        "music": [
+          "assets/Music/Ocean Sunset/OS001.m4a",
+          "assets/Music/Ocean Sunset/OS002.m4a",
+          "assets/Music/Ocean Sunset/OS003.m4a",
+          "assets/Music/Ocean Sunset/OS004.m4a",
+          "assets/Music/Ocean Sunset/OS006.m4a",
+          "assets/Music/Ocean Sunset/OS009.m4a",
+          "assets/Music/Ocean Sunset/OS010.m4a",
+          "assets/Music/Ocean Sunset/OS012.m4a",
+          "assets/Music/Ocean Sunset/OS013.m4a",
+          "assets/Music/Ocean Sunset/OS020.m4a",
+          "assets/Music/Ocean Sunset/OS022.m4a",
+          "assets/Music/Ocean Sunset/OS023.m4a",
+          "assets/Music/Ocean Sunset/OS024.m4a",
+          "assets/Music/Ocean Sunset/OS027.m4a",
+          "assets/Music/Ocean Sunset/OS029.m4a",
+          "assets/Music/Ocean Sunset/OS032.m4a",
+          "assets/Music/Ocean Sunset/OS033.m4a",
+          "assets/Music/Ocean Sunset/OS036.m4a",
+          "assets/Music/Ocean Sunset/OS038.m4a",
+          "assets/Music/Ocean Sunset/OS040.m4a"
+        ],
+        "ambience": [
+          "assets/ambience/Ocean Sunset/OS-A1-C01.m4a",
+          "assets/ambience/Ocean Sunset/OS-A1-C02.m4a",
+          "assets/ambience/Ocean Sunset/OS-A1-C03.m4a",
+          "assets/ambience/Ocean Sunset/OS-A2-C01.m4a",
+          "assets/ambience/Ocean Sunset/OS-A2-C02.m4a",
+          "assets/ambience/Ocean Sunset/OS-A2-C03.m4a"
+        ],
+        "sfx": [
+          "assets/sfx/Ocean Sunset/OS-S1-C01.m4a",
+          "assets/sfx/Ocean Sunset/OS-S1-C02.m4a",
+          "assets/sfx/Ocean Sunset/OS-S1-C03.m4a",
+          "assets/sfx/Ocean Sunset/OS-S1-C04.m4a",
+          "assets/sfx/Ocean Sunset/OS-S2-C01.m4a",
+          "assets/sfx/Ocean Sunset/OS-S2-C02.m4a",
+          "assets/sfx/Ocean Sunset/OS-S2-C03.m4a",
+          "assets/sfx/Ocean Sunset/OS-S2-C04.m4a",
+          "assets/sfx/Ocean Sunset/OS-S3-C01.m4a",
+          "assets/sfx/Ocean Sunset/OS-S3-C02.m4a",
+          "assets/sfx/Ocean Sunset/OS-S3-C03.m4a",
+          "assets/sfx/Ocean Sunset/OS-S3-C04.m4a"
+        ]
+      },
+      "android": {
+        "minVersionCode": 1,
+        "pack": "scene_os"
+      },
+      "desktop": {
+        "minAppVersion": "1.0.13"
+      }
+    },
+    {
+      "id": "DS",
+      "name": "Deep Space",
+      "folder": "Deep_Space",
+      "background": "assets/Video/Deep_Space/background.png",
+      "cover": "assets/Video/Deep_Space/cover.webp",
+      "video": {
+        "ambient": [
+          "assets/Video/Deep_Space/ambient.mp4"
+        ],
+        "events": [
+          "assets/Video/Deep_Space/event.mp4"
+        ]
+      },
+      "revision": "1",
+      "delivery": "on-demand",
+      "access": {
+        "kind": "public"
+      },
+      "audio": {
+        "music": [
+          "assets/Music/Deep Space/DS004.m4a",
+          "assets/Music/Deep Space/DS011.m4a",
+          "assets/Music/Deep Space/DS023.m4a",
+          "assets/Music/Deep Space/DS024.m4a",
+          "assets/Music/Deep Space/DS025.m4a",
+          "assets/Music/Deep Space/DS026.m4a",
+          "assets/Music/Deep Space/DS027.m4a",
+          "assets/Music/Deep Space/DS028.m4a",
+          "assets/Music/Deep Space/DS029.m4a",
+          "assets/Music/Deep Space/DS030.m4a",
+          "assets/Music/Deep Space/DS031.m4a",
+          "assets/Music/Deep Space/DS032.m4a",
+          "assets/Music/Deep Space/DS033.m4a",
+          "assets/Music/Deep Space/DS034.m4a",
+          "assets/Music/Deep Space/DS035.m4a",
+          "assets/Music/Deep Space/DS036.m4a",
+          "assets/Music/Deep Space/DS037.m4a",
+          "assets/Music/Deep Space/DS038.m4a",
+          "assets/Music/Deep Space/DS039.m4a",
+          "assets/Music/Deep Space/DS040.m4a"
+        ],
+        "ambience": [
+          "assets/ambience/Deep Space/DS-A1-C01.m4a",
+          "assets/ambience/Deep Space/DS-A1-C02.m4a",
+          "assets/ambience/Deep Space/DS-A1-C03.m4a",
+          "assets/ambience/Deep Space/DS-A2-C01.m4a",
+          "assets/ambience/Deep Space/DS-A2-C02.m4a",
+          "assets/ambience/Deep Space/DS-A2-C03.m4a",
+          "assets/ambience/Deep Space/DS-A3-C01.m4a",
+          "assets/ambience/Deep Space/DS-A3-C02.m4a",
+          "assets/ambience/Deep Space/DS-A3-C03.m4a"
+        ],
+        "sfx": [
+          "assets/sfx/Deep Space/DS-S1-C01.m4a",
+          "assets/sfx/Deep Space/DS-S1-C02.m4a",
+          "assets/sfx/Deep Space/DS-S1-C03.m4a",
+          "assets/sfx/Deep Space/DS-S1-C04.m4a",
+          "assets/sfx/Deep Space/DS-S2-C01.m4a",
+          "assets/sfx/Deep Space/DS-S2-C02.m4a",
+          "assets/sfx/Deep Space/DS-S2-C03.m4a",
+          "assets/sfx/Deep Space/DS-S2-C04.m4a",
+          "assets/sfx/Deep Space/DS-S3-C01.m4a",
+          "assets/sfx/Deep Space/DS-S3-C02.m4a",
+          "assets/sfx/Deep Space/DS-S3-C03.m4a",
+          "assets/sfx/Deep Space/DS-S3-C04.m4a"
+        ]
+      },
+      "android": {
+        "minVersionCode": 1,
+        "pack": "scene_ds"
+      },
+      "desktop": {
+        "minAppVersion": "1.0.13"
+      }
+    },
+    {
+      "id": "NM",
+      "name": "Nordic Morning",
+      "folder": "Nordic_Morning",
+      "background": "assets/Video/Nordic_Morning/background.png",
+      "cover": "assets/Video/Nordic_Morning/cover.webp",
+      "video": {
+        "ambient": [
+          "assets/Video/Nordic_Morning/ambient.mp4"
+        ],
+        "events": [
+          "assets/Video/Nordic_Morning/event.mp4"
+        ]
+      },
+      "revision": "1",
+      "delivery": "on-demand",
+      "access": {
+        "kind": "public"
+      },
+      "audio": {
+        "music": [
+          "assets/Music/Nordic Morning/NM004.m4a",
+          "assets/Music/Nordic Morning/NM008.m4a",
+          "assets/Music/Nordic Morning/NM010.m4a",
+          "assets/Music/Nordic Morning/NM011.m4a",
+          "assets/Music/Nordic Morning/NM012.m4a",
+          "assets/Music/Nordic Morning/NM014.m4a",
+          "assets/Music/Nordic Morning/NM015.m4a",
+          "assets/Music/Nordic Morning/NM016.m4a",
+          "assets/Music/Nordic Morning/NM017.m4a",
+          "assets/Music/Nordic Morning/NM018.m4a",
+          "assets/Music/Nordic Morning/NM019.m4a",
+          "assets/Music/Nordic Morning/NM024.m4a",
+          "assets/Music/Nordic Morning/NM026.m4a",
+          "assets/Music/Nordic Morning/NM027.m4a",
+          "assets/Music/Nordic Morning/NM028.m4a",
+          "assets/Music/Nordic Morning/NM030.m4a",
+          "assets/Music/Nordic Morning/NM031.m4a",
+          "assets/Music/Nordic Morning/NM034.m4a",
+          "assets/Music/Nordic Morning/NM036.m4a",
+          "assets/Music/Nordic Morning/NM039.m4a"
+        ],
+        "ambience": [
+          "assets/ambience/Nordic Morning/NM-A1-C01.m4a",
+          "assets/ambience/Nordic Morning/NM-A1-C02.m4a",
+          "assets/ambience/Nordic Morning/NM-A1-C03.m4a",
+          "assets/ambience/Nordic Morning/NM-A2-C01.m4a",
+          "assets/ambience/Nordic Morning/NM-A2-C02.m4a",
+          "assets/ambience/Nordic Morning/NM-A2-C03.m4a"
+        ],
+        "sfx": [
+          "assets/sfx/Nordic Morning/NM-S1-C01.m4a",
+          "assets/sfx/Nordic Morning/NM-S1-C02.m4a",
+          "assets/sfx/Nordic Morning/NM-S1-C03.m4a",
+          "assets/sfx/Nordic Morning/NM-S1-C04.m4a",
+          "assets/sfx/Nordic Morning/NM-S2-C01.m4a",
+          "assets/sfx/Nordic Morning/NM-S2-C02.m4a",
+          "assets/sfx/Nordic Morning/NM-S2-C03.m4a",
+          "assets/sfx/Nordic Morning/NM-S2-C04.m4a",
+          "assets/sfx/Nordic Morning/NM-S3-C01.m4a",
+          "assets/sfx/Nordic Morning/NM-S3-C02.m4a",
+          "assets/sfx/Nordic Morning/NM-S3-C03.m4a",
+          "assets/sfx/Nordic Morning/NM-S3-C04.m4a"
+        ]
+      },
+      "android": {
+        "minVersionCode": 1,
+        "pack": "scene_nm"
+      },
+      "desktop": {
+        "minAppVersion": "1.0.13"
+      }
+    },
+    {
+      "id": "CC",
+      "name": "Cyber City",
+      "folder": "Cyber_City",
+      "background": "assets/Video/Cyber_City/background.png",
+      "cover": "assets/Video/Cyber_City/cover.webp",
+      "video": {
+        "ambient": [
+          "assets/Video/Cyber_City/ambient.mp4"
+        ],
+        "events": [
+          "assets/Video/Cyber_City/event.mp4"
+        ]
+      },
+      "revision": "1",
+      "delivery": "on-demand",
+      "access": {
+        "kind": "public"
+      },
+      "audio": {
+        "music": [
+          "assets/Music/Cyber City/CC001.m4a",
+          "assets/Music/Cyber City/CC002.m4a",
+          "assets/Music/Cyber City/CC003.m4a",
+          "assets/Music/Cyber City/CC004.m4a",
+          "assets/Music/Cyber City/CC005.m4a",
+          "assets/Music/Cyber City/CC006.m4a",
+          "assets/Music/Cyber City/CC007.m4a",
+          "assets/Music/Cyber City/CC008.m4a",
+          "assets/Music/Cyber City/CC010.m4a",
+          "assets/Music/Cyber City/CC011.m4a",
+          "assets/Music/Cyber City/CC012.m4a",
+          "assets/Music/Cyber City/CC013.m4a",
+          "assets/Music/Cyber City/CC014.m4a",
+          "assets/Music/Cyber City/CC015.m4a",
+          "assets/Music/Cyber City/CC016.m4a",
+          "assets/Music/Cyber City/CC017.m4a",
+          "assets/Music/Cyber City/CC028.m4a",
+          "assets/Music/Cyber City/CC030.m4a",
+          "assets/Music/Cyber City/CC031.m4a",
+          "assets/Music/Cyber City/CC035.m4a"
+        ],
+        "ambience": [
+          "assets/ambience/Cyber City/CC-A1-C01.m4a",
+          "assets/ambience/Cyber City/CC-A1-C02.m4a",
+          "assets/ambience/Cyber City/CC-A1-C03.m4a",
+          "assets/ambience/Cyber City/CC-A2-C01.m4a",
+          "assets/ambience/Cyber City/CC-A2-C02.m4a",
+          "assets/ambience/Cyber City/CC-A2-C03.m4a",
+          "assets/ambience/Cyber City/CC-A3-C01.m4a",
+          "assets/ambience/Cyber City/CC-A3-C02.m4a",
+          "assets/ambience/Cyber City/CC-A3-C03.m4a"
+        ],
+        "sfx": [
+          "assets/sfx/Cyber City/CC-S1-C01.m4a",
+          "assets/sfx/Cyber City/CC-S1-C02.m4a",
+          "assets/sfx/Cyber City/CC-S1-C03.m4a",
+          "assets/sfx/Cyber City/CC-S1-C04.m4a",
+          "assets/sfx/Cyber City/CC-S2-C01.m4a",
+          "assets/sfx/Cyber City/CC-S2-C02.m4a",
+          "assets/sfx/Cyber City/CC-S2-C03.m4a",
+          "assets/sfx/Cyber City/CC-S2-C04.m4a",
+          "assets/sfx/Cyber City/CC-S3-C01.m4a",
+          "assets/sfx/Cyber City/CC-S3-C02.m4a",
+          "assets/sfx/Cyber City/CC-S3-C03.m4a",
+          "assets/sfx/Cyber City/CC-S3-C04.m4a"
+        ]
+      },
+      "android": {
+        "minVersionCode": 1,
+        "pack": "scene_cc"
+      },
+      "desktop": {
+        "minAppVersion": "1.0.13"
+      }
+    },
+    {
+      "id": "AA",
+      "name": "Autumn Algonquin",
+      "folder": "Autumn_Algonquin",
+      "background": "assets/Video/Autumn_Algonquin/background.png",
+      "cover": "assets/Video/Autumn_Algonquin/cover.webp",
+      "video": {
+        "ambient": [
+          "assets/Video/Autumn_Algonquin/ambient.mp4"
+        ],
+        "events": [
+          "assets/Video/Autumn_Algonquin/event.mp4"
+        ]
+      },
+      "revision": "2026.10",
+      "delivery": "on-demand",
+      "access": {
+        "kind": "invite",
+        "codeHash": "bf27d89573c668957499751ecabf3c1117215c22779ed5c0f6c3ce0a6baa80e0"
+      },
+      "audio": {
+        "music": [
+          "assets/Music/Autumn Algonquin/AA001.m4a",
+          "assets/Music/Autumn Algonquin/AA003.m4a",
+          "assets/Music/Autumn Algonquin/AA004.m4a",
+          "assets/Music/Autumn Algonquin/AA005.m4a",
+          "assets/Music/Autumn Algonquin/AA006.m4a",
+          "assets/Music/Autumn Algonquin/AA007.m4a",
+          "assets/Music/Autumn Algonquin/AA008.m4a",
+          "assets/Music/Autumn Algonquin/AA009.m4a",
+          "assets/Music/Autumn Algonquin/AA010.m4a",
+          "assets/Music/Autumn Algonquin/AA011.m4a",
+          "assets/Music/Autumn Algonquin/AA012.m4a",
+          "assets/Music/Autumn Algonquin/AA013.m4a",
+          "assets/Music/Autumn Algonquin/AA014.m4a",
+          "assets/Music/Autumn Algonquin/AA015.m4a",
+          "assets/Music/Autumn Algonquin/AA016.m4a",
+          "assets/Music/Autumn Algonquin/AA017.m4a",
+          "assets/Music/Autumn Algonquin/AA018.m4a",
+          "assets/Music/Autumn Algonquin/AA020.m4a",
+          "assets/Music/Autumn Algonquin/AA021.m4a",
+          "assets/Music/Autumn Algonquin/AA026.m4a"
+        ],
+        "ambience": [
+          "assets/ambience/Autumn Algonquin/AA-A1-C01.m4a",
+          "assets/ambience/Autumn Algonquin/AA-A1-C02.m4a",
+          "assets/ambience/Autumn Algonquin/AA-A1-C03.m4a",
+          "assets/ambience/Autumn Algonquin/AA-A2-C01.m4a",
+          "assets/ambience/Autumn Algonquin/AA-A2-C02.m4a",
+          "assets/ambience/Autumn Algonquin/AA-A2-C03.m4a",
+          "assets/ambience/Autumn Algonquin/AA-A3-C01.m4a",
+          "assets/ambience/Autumn Algonquin/AA-A3-C02.m4a",
+          "assets/ambience/Autumn Algonquin/AA-A3-C03.m4a"
+        ],
+        "sfx": [
+          "assets/sfx/Autumn Algonquin/AA-S1-C01.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S1-C02.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S1-C03.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S1-C04.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S2-C01.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S2-C02.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S2-C03.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S2-C04.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S3-C01.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S3-C02.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S3-C03.m4a",
+          "assets/sfx/Autumn Algonquin/AA-S3-C04.m4a"
+        ]
+      },
+      "android": {
+        "minVersionCode": 5,
+        "pack": "scene_aa"
+      },
+      "desktop": {
+        "minAppVersion": "1.0.13",
+        "manifestUrl": "https://github.com/gillianli/flowscape-content/releases/download/aa-2026.10/scene-manifest.json",
+        "manifestHash": "70fd4816e7d2918b358b8ecbadcee147e8236dc60c9f690cb5de0c87b83fcef3"
+      },
+      "announce": true,
+      "nameZh": "秋日阿岗昆",
+      "subtitle": "Autumn leaves · quiet lake · acoustic warmth",
+      "subtitleZh": "秋叶 · 静湖 · 木吉他",
+      "description": "A 4K autumn retreat beside an Algonquin lake.",
+      "descriptionZh": "阿岗昆湖畔的 4K 秋日小憩。",
+      "previewUrl": "https://github.com/gillianli/flowscape-content/releases/download/aa-2026.10/001-cover.webp",
+      "downloadBytes": 203429164
+    }
+  ],
+  "publishedAt": "2026-10-10T20:14:35.294Z"
+}
